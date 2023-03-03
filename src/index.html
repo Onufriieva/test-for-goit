@@ -3,12 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <title>Test-for-goit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+  <div class="card">
+    <svg class="logo" width="76px" height="22px">
+      <use href="./images/icons.svg#logo"></use>
+    </svg>
+    <img class="background" src="./images/picture2.png" alt="Green checkmark and yellow question mark">
+    <hr class="line"/>
+    <p class="tweet"> <span>777</span> TWEETS</p>
+    <p class="follower"><span id="value">100500</span> FOLLOWERS</p> 
+    <button type="button" class="follow" data-action="add">FOLLOW</button>
+  </div>
+  
+
+  <script src="./index.js"></script>  
   </body>
 </html>
