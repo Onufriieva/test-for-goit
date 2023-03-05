@@ -32,7 +32,7 @@ const counterValue = {
     localStorage.setItem("STORAGE_KEY", JSON.stringify(counterValue.value));
     const savedValue = localStorage.getItem("STORAGE_KEY");
     const parsedValue = JSON.parse(savedValue);
-    console.log(parsedValue)    
+    console.log(parsedValue) 
     });
     
   })();
